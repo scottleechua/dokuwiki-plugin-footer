@@ -1,7 +1,7 @@
 <?php
 /**
  * @license    GPL (http://www.gnu.org/licenses/gpl.html)
- * @author     Hans-Juergen Schuemmer
+ * @author     Hans-Juergen Schuemmer, Scott Lee Chua
  *
  */
 

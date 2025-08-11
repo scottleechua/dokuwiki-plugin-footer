@@ -10,6 +10,12 @@
 
  *
 
+ * Original: from Plugin footer, author Juergen <H-J-Schuemmer@Web.de>
+
+ * Modified by Scott Lee Chua scottleechua@icloud.com
+
+ * 
+
  * Original: from Plugin headerfooter, author Li Zheng <lzpublic@qq.com>
 
  * Modified by Juergen H-J-Schuemmer@Web.de
@@ -45,9 +51,8 @@ class action_plugin_footerv2 extends DokuWiki_Action_Plugin {
 
        global $conf;
 
-       //what does this mean???
-
-       if ($INFO['id'] != '') return; // Jede Seite wird zweimal ausgeführt. Wenn die ID leer ist, ist es der echte Text, andernfalls ist es das Menü.
+       // Check if $INFO is set and has an 'id' key before accessing it
+       if (isset($INFO) && isset($INFO['id']) && $INFO['id'] != '') return;
 
 
        //helper array needed for parsePageTemplate
