@@ -24,7 +24,7 @@
 if(!defined('DOKU_INC')) die();
 
 
-class action_plugin_footer extends DokuWiki_Action_Plugin {
+class action_plugin_footerv2 extends DokuWiki_Action_Plugin {
 
    public function register(Doku_Event_Handler $controller) {
 
@@ -44,7 +44,6 @@ class action_plugin_footer extends DokuWiki_Action_Plugin {
        global $ID;
 
        global $conf;
-
 
        //what does this mean???
 
