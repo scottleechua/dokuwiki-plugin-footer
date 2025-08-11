@@ -5,3 +5,4 @@ date   2025-08-11
 name   Footer plugin (v2)
 desc   Add footer text in every page in a namespace without the need to edit pages
 url    http://dokuwiki.org/plugin:footer
+dokuwiki 2025-05-14
